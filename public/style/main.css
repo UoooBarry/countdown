@@ -1,0 +1,26 @@
+:root {
+  --main: #31343a;
+}
+
+body {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+
+.counter-container {
+  background-color: var(--main);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  font-weight: 500;
+  font-size: 1050%;
+  letter-spacing: -5px;
+  color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
