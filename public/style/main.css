@@ -17,10 +17,21 @@ body {
   justify-content: center;
 }
 
+@media screen and (max-width: 1400px) and (min-width: 480px) {
+  .counter {
+    font-weight: 500;
+    font-size: 1050%;
+    letter-spacing: -5px;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  }
+}
+
+
 .counter {
   font-weight: 500;
-  font-size: 1050%;
-  letter-spacing: -5px;
+  font-size: 24px;
+  /* letter-spacing: -5px; */
   color: whitesmoke;
   font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
