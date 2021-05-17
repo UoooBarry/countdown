@@ -15,9 +15,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size:100% 100%;
 }
 
-@media screen and (max-width: 1400px) and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .counter {
     font-weight: 500;
     font-size: 1050%;
@@ -27,11 +28,12 @@ body {
   }
 }
 
-
-.counter {
-  font-weight: 500;
-  font-size: 32px;
-  /* letter-spacing: -5px; */
-  color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+@media screen and (max-width: 480px) {
+  .counter {
+    font-weight: 500;
+    font-size: 32px;
+    /* letter-spacing: -5px; */
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  }
 }
