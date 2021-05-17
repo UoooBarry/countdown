@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'pixel-chinese';
-  src: url("/public/fonts/fz24.ttf");
+  src: url("../fonts/fz24.TTF") format("truetype");
 }
 
 
@@ -26,12 +26,16 @@ body {
   background-size:100% 100%;
 }
 
+.counter {
+  color: whitesmoke;
+  padding-top: 200px
+}
+
 @media screen and (min-width: 480px) {
   .counter {
     font-weight: 500;
     font-size: 1000%;
     letter-spacing: -5px;
-    color: whitesmoke;
   }
 }
 
@@ -39,7 +43,5 @@ body {
   .counter {
     font-weight: 500;
     font-size: 32px;
-    /* letter-spacing: -5px; */
-    color: whitesmoke;
   }
 }
