@@ -28,6 +28,7 @@ body {
 
 .counter {
   color: whitesmoke;
+  padding-bottom: 150px;
 }
 
 @media screen and (min-width: 480px) {
