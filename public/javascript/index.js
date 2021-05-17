@@ -5,6 +5,7 @@ setInterval(() => {
   const dif = moment.duration(moment(targetDate).diff(now));
   const timeDif = dif._data;
   document.querySelector('#counter').innerHTML = `${timeDif.days}天${timeDif.hours}时${timeDif.minutes}分${timeDif.seconds}秒`
+  document.title = `离高考还有${timeDif.days}天`
 }, 1000);
 
 
