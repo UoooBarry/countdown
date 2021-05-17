@@ -2,13 +2,21 @@
   --main: #31343a;
 }
 
+@font-face {
+  font-family: pixelChinese;
+  src: url("../fonts/fz24.ttf");
+}
+
+
 body {
   margin: 0 !important;
   width: 100%;
   height: 100%;
+  font-family: pixelChinese;
 }
 
 .counter-container {
+  background-image: url("../images/bg.jpg"  );
   background-color: var(--main);
   width: 100vw;
   height: 100vh;
@@ -21,10 +29,9 @@ body {
 @media screen and (min-width: 480px) {
   .counter {
     font-weight: 500;
-    font-size: 1050%;
+    font-size: 1000%;
     letter-spacing: -5px;
     color: whitesmoke;
-    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   }
 }
 
@@ -34,6 +41,5 @@ body {
     font-size: 32px;
     /* letter-spacing: -5px; */
     color: whitesmoke;
-    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   }
 }
