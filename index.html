@@ -6,13 +6,17 @@
   <title> 🔥🔥倒计时🔥🔥 </title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='public/style/main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='public/style/wisdom.css'>
   <script src='public/javascript/index.js'></script>
   <script src='public/javascript/moment.js'></script>
 </head>
-<body>
+<body onload="loadWisdom()">
   <div class="counter-container" id="counter-container">
     <div class="counter" id="counter">
       12:00:00
+    </div>
+    <div class="wisdom-container">
+      <div class="wisdom" id='wisdom'>Good day today... Looks fine</div>
     </div>
   </div>
 </body>

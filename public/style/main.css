@@ -16,6 +16,9 @@ body {
 }
 
 .counter-container {
+  flex: 1 0 100%; /* explanation below */
+  flex-wrap: wrap;
+  flex-direction: row;
   background-image: url("../images/bg.jpg"  );
   background-color: var(--main);
   width: 100vw;
